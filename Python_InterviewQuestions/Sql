@@ -1,0 +1,20 @@
+How to maintain data integrity in db.
+Data integrity
+Grant command in Database belongs to DML or DDL or DCL
+How do you concat all records in one field
+Execution plan in SQL
+Stored procedure
+Advantages of stored procedure
+Difference between SQL query and stored procedure
+Join in SQL
+Can you Perform join on columns with null values
+Index in SQL
+types of indexes
+Binary trees
+Why binary trees are faster
+ACID props
+Delete in foreign key scenario
+Primary and foreign keys
+PK allow nulls?
+FK allow nulls?
+

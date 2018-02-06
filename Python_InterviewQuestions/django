@@ -1,0 +1,23 @@
+1.Django views,modules,templates.
+2.django request-response cycle.
+3.django architecture.
+4.command to create and start django app
+5.How to provide security for Rest API in django
+6.How to perform authentication in django
+7.Issues in designing Rest API
+8.How to design a Rest API in django
+9.What is Rest API
+10.Explain Django Rest Framework
+11.How to perform form validation in django
+12.Types of form validation
+13.ORM in django
+14.Testing in django
+15.unittest in django
+16.Testing libraries/packages/frameworks in django
+17.What is Middleware
+18.Sequence of execution in middleware.
+19.Django's order of execution
+20.process_request in django
+21.Error handling in middleware in django
+22.Templates in django
+23.

@@ -1,0 +1,107 @@
+numpy vs lists:
+
+range in list vs arange in numpy --- memory occupies more in list
+sys.getsizeof().len(List) --list
+d=np.arange(1000) d.size*d.itemsize() --numpy
+
+byte size in numpy --- itemsize()
+data type in numpy --dtype()
+ndim() --- find dimensions of array
+find size of array---size()
+find shape of array ---shape()
+ex: a=np.array([(1,2,3,4,5,6,7]) --a.shape() gives (7,)-- 7 columns
+a=np.array([(1,2,3,4,5,6,7),(8,9,10,11,12,13,14)]) --- (2,7) -- 2 rows 7 columns
+
+Reshaping:
+change no of rows and columns.
+a = np.array([(1,2,3,4),(5,6,7,8)]) - 2 rows,4 columns
+a.reshape(4,2)
+--4 rows,2 columns
+
+Slicing:
+a = np.array([(1,2,3,4),(5,6,7,8)])
+here (1,2,3,4) -- is 0 element
+(5,6,7,8) -- 1 element
+from 0 element i want index 3
+print(a[0,2])-- 3
+0: -- all rows including 0 element
+a[0:,3]--gives [4,6]
+
+a = np.array([(1,2,3,4),(5,6,7,8),(7,8,9,10)])
+a[0:2,3])--gives [4,6] bcos it includes 0,1 elemnts nly
+
+a=np.linespace(1,3,5)--prints 5 values (equal spacing) between 1 and 3
+
+a = np.array([(1,2,3,4)]
+max element in array -- a.max()
+min--a.min()
+sum--a.sum()
+
+Axis concept:
+
+rows--axis 1
+columns --axis 0
+a = np.array([(1,2,3),(3,4,5)])
+a.sum(axis=0) --[4,6,8]
+a.sum(axis=1) --[6,12]
+
+finding sq root and std deviation
+a = np.array([(1,2,3),(3,4,5)])
+np.sqrt(a)---prints sq root of each element
+np.std(a) -- prints std deviation
+
+addition,multiplication,sub,div --same like matrix
+
+a = np.array([(1,2,3),(3,4,5)])
+
+b= np.array([(1,2,3),(3,4,5)])
+
+a + b 
+//but in lists if we use + it will concatenate,so use for loop
+
+similarly, a-b,a*b,a/b
+
+
+for concatenating two arrays:
+vertical stacking:
+np.vstack(a,b)
+horizontal stacking:
+np.hstack(a,b)
+
+
+convert array to single column
+np.ravel(a)
+
+numpy special functions:
+import matplotlib --plot sine and cosine functions
+
+import matplotlib.pylpot as plt
+x=np.arange(0,3*np.pi,0.1)
+y=np.sin(x)
+plt.plot(x,y)
+plt.show()
+
+similarly cosine,tan
+
+exponential and logarithmic function
+a =  np.array([1,2,3])
+
+np.exp(a) -- gives exp values of each element (e power x )
+
+np.log(a)--natural log--gives log elements
+
+np.log10(a) -- log based 10 elements
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+1) Client is interested in checking coding exercise online.
+
+   Few online editor 
+
+       a) Jupiter Notebooks
+
+ 
+
+2) Have some editors installed
+
+    1) Pycharm
+
+ 
+
+3) Sample Free ware DBv
+
+   1) Mysql
+
+ 
+
+ 
+
+4) Sample Programs
+
+   1) List Comprehension
+
+   2) Generators
+
+   3) Decorators
+
+   4) Numpy
+
+   5) Pandas
+
+ 
+
+When to use Numpy and when to use Pandas:
+Pandas:
+Pandas provides high level data manipulation tools built on top of NumPy. 
+Indexing
+Renaming
+Handling missing values
+map(), apply(), applymap()
+groupby()
+New Columns = f(Existing Columns)
+Basic stats
+Merge, join
+Plots
+Numpy:
+Numpy is the core library for scientific computing in Python. It provides a high-performance multidimensional array object, and tools for working with these arrays.
+NumPy by itself is a fairly low-level tool, and will be very much similar to using MATLAB. 
+
+speed,functionality,efficiency,convenience,less space/memory
+
+
+
+ 
+
+Usage of Tuples, List
+
+ 
+
+5) Sample programs practise (Available on google)
+
+   1) Fibonacci Series
+
+   2) Card Deck Sample
+
+ 
+
+6) SQL statements
+
+   1) Using Have clause
+
+   2) Aggregate functions
+
+   3) Select statements using bottom 3, top n-1 records
+
+   4) difference in primary and unique keys

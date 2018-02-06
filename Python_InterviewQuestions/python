@@ -1,0 +1,40 @@
+Python interview questions being asked:
+1.What is Python module and its life cycle.
+2.Namespace in module
+3.Search string performance using contain vs regex vs find.
+4.Multi threading and multi processing in Python
+5.Big Oh notation in searching.
+6.OOPS concepts
+7.Encapsulation,Inheritance
+8.Class,Object
+9.Why use json instead of xml
+10.python lists.
+11.Python has a compiler?
+12.what is numpy
+13.native datatypes in python
+14.numpy vs native datatypes
+15.how to connect db to python
+16.how to free memory in python
+17.command to free memory in python
+18.memory management in python
+19.random module.
+20.perform random without importing random package.
+21.pep8 rules.
+22.shallow copy vs deep copy
+23.how to copy object in python
+24.static vs class methods
+25.decorators
+26.monkey patching
+27.immutable datatypes in python
+28.Why use tuple instead of lists
+29.HOw to pass argument to function in python
+30.What if class and function assigned to a variable.
+31.Functions in python
+32.Advantages of OOPS
+33.Dynamic language
+34.Is Python dynamic language?
+35.Is Python interpreted language?
+36.Exception for python db connection--give exception name
+37.Exception handling in python
+38.Exception class in python
+
